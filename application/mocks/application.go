@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	application "github.com/thg021/go-hexagonal/application"
+	application "github.com/thg021/fc2-arquitetura-hexagonal/application"
 )
 
 // MockProductInterface is a mock of ProductInterface interface.

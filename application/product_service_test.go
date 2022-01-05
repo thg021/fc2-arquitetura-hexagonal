@@ -5,8 +5,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
-	"github.com/thg021/go-hexagonal/application"
-	mock_application "github.com/thg021/go-hexagonal/application/mocks"
+	"github.com/thg021/fc2-arquitetura-hexagonal/application"
+	mock_application "github.com/thg021/fc2-arquitetura-hexagonal/application/mocks"
 )
 
 func TestProductService_Get(t *testing.T) {

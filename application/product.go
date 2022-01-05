@@ -2,6 +2,7 @@ package application
 
 import (
 	"errors"
+	"fmt"
 
 	"github.com/asaskevich/govalidator"
 	uuid "github.com/satori/go.uuid"
@@ -97,6 +98,8 @@ func (p *Product) Enable() error {
 }
 
 func (p *Product) Disable() error {
+
+	fmt.Print("Estou no disable do Product \n")
 
 	if p.Price == 0 {
 		p.Status = DISABLED
